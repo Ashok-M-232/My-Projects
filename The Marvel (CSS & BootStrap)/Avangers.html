@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MARVEL MOVIES</title>
+      <meta charset="utf-8">
+<!-- add Bootstrap and JQuery plugin /CDN -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<!-- add external css file-->
+<link rel="stylesheet" type="text/css" href="css/mystyles.css">
+
+<!-- add External Javascript file -->
+<script language="Javascript" src="js/validaton.js"></script>
+
+<!-- add font awesome icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+
+<!-- add google fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap" rel="stylesheet"> 
+
+
+    <style type="text/css">
+    	
+    	.section1
+    	{
+    		width:100%;
+    		height:750px;
+            background:linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(images/logo3.webp);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            
+        }
+    	.section2
+    	{
+    		width:100%;
+    		height:780px;
+    		background:linear-gradient(to top, rgba(0,0,0,0.2)50%, rgba(0,0,0,0.2)50%),url(images/mf.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+    	}
+
+        .section2 .box h4
+        {
+         
+            padding:50px;
+            font-size: 25px;
+            text-align: justify;
+            color:gray;
+        }
+
+    	.section3
+    	{
+    		width:100%;
+    		height:830px;
+    		background:linear-gradient(to top,rgba(0,0,0,0.7)50%,rgba(0,0,0,0.7)50%) ,url(images/join.jpeg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+    	}
+
+         .section3 .card
+         {
+            margin:6px;
+            width: 280px;
+            height: 280px;
+            border: 2px solid black;
+            display: inline-block;
+           background:linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+         }
+         .section3 .card:hover
+         {
+            margin:1px;
+            width: 290px;
+            height: 290px;
+            border: 2px solid black;
+            display: inline-block;
+           background:linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+         } 
+
+    	.section4
+    	{
+    		width:100%;
+    		height:800px;
+    		background:linear-gradient(to top,rgba(0,0,0,0.7)50%,rgba(0,0,0,0.7)50%),url(images/final.jpeg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+    	}
+        
+    	.section5
+    	{
+    		margin-top:-50px;
+            width:100%;
+    		height:800px;
+    		background:linear-gradient(to top,rgba(0,0,0,0.7)50%,rgba(0,0,0,0.7)50%),url(images/pag2.webp);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+    	}
+          .section5 .container .box
+         {
+            
+            width: 670px;
+            height: 290px;
+            padding-left: 15px;
+            border: 2px solid black;
+            margin:auto;
+            margin-top: 120px;
+            color:white;
+            background:linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%); 
+            background:none; 
+         }
+    </style>
+
+</head>
+<body>
+
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+		<div class="container">
+			<a href="#" class="navbar-brand">AVANGERS</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navid">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class=" collapse navbar-collapse" id="navid">
+				<ul class="navbar-nav">
+					<li class="nav-item mx-5v text-center">
+						<a class="nav-link" href="#home">HOME</a>
+					</li>
+					<li class="nav-item mx-5 text-center">
+						<a class="nav-link" href="#about">ABOUT</a>
+					</li>
+					<li class="nav-item mx-5 text-center">
+						<a class="nav-link" href="#cast">CAST</a>
+					</li>
+					<li class="nav-item mx-5 text-center">
+						<a class="nav-link " href="#Movies">MOVIES</a>
+					</li>
+					<li class="nav-item mx-5 text-center">
+						<a class="nav-link " href="#more">MORE</a>
+					</li>
+				</ul>
+			</div>	 
+		</div>
+	</nav>
+<section class="section1" id="home">
+	<h1 class=" s1h1 text-secondary mt-5 text-center">WELCOME TO THE AVANGERS WORLD </h1>
+</section>
+<!----------------------------->
+<section class="section2" id="about">
+	<h1 class="pt-5 text-white text-center">Avengers (Marvel Cinematic Universe)</h1>
+    <div class="box m-3 p-4 h-60 w-100">
+        <h4 >The Avengers are a team of fictional superheroes and the protagonists of the Marvel Cinematic Universe (MCU) media franchise, based on the Marvel Comics team of the same name created by Stan Lee and Jack Kirby in 1963. Founded by S.H.I.E.L.D. Director Nick Fury, the team is a United States-based organization composed primarily of superpowered and gifted individuals, described as "Earth's Mightiest Heroes", who are committed to the world's protection from a variety of threats. The Avengers are depicted as operating in the state of New York: originally from the Avengers Tower in Midtown Manhattan and subsequently in the Avengers Compound in Upstate New York. Arranged as an ensemble of core MCU characters originally consisting of Tony Stark / Iron Man, Steve Rogers / Captain America, Thor, Bruce Banner / Hulk, Natasha Romanoff / Black Widow, and Clint Barton / Hawkeye, and later expanding to include 16 members. They are central to the MCU's first 23 films, collectively known as the Infinity Saga, and are consequently regarded as an important part of the franchise. The Avengers from alternate universes were depicted in various properties from Phase Four of the MCU, including appearances in the first season of the Disney+ animated series What If...? (2021–present) and Doctor Strange in the Multiverse of Madness (2022). The Avengers are set to return in Avengers: The Kang Dynasty (2026) and Avengers: Secret Wars (2027). Both films will be part of the MCU's Phase Six, concluding the Multiverse Saga.</h4>
+    </div>
+</section>
+<!----------------------------->
+<section class="section3" id="cast">
+	<h1 class="p-4 fs-2 text-white"> <strong class="text-danger">|</strong> MOST POPULAR AVANGERS</h1>
+        <div class="container-fluid">
+            <div class="card">
+                <div class="card-body"><img class="w-100" src="images/cap.jpeg"></div>
+                <div class="card-footer text-danger text-center">Chris Evans</div>
+            </div>
+            <div class="card">
+                <div class="card-body"><img class="w-100" src="images/iron.jpeg"></div>
+                <div class="card-footer text-danger text-center"> Robert Downey Jr.</div>
+            </div>
+            <div class="card">
+                <div class="card-body"><img class="w-100" src="images/thor2.jpeg"></div>
+                <div class="card-footer text-danger text-center"> Chris Hemsworth</div>
+            </div>
+            <div class="card">
+                <div class="card-body">><img class="w-100" src="images/msmar.jpeg"></div>
+                <div class="card-footer text-danger text-center">Brie Larson</div>
+            </div>
+            <div class="card">
+                <div class="card-body"><img class="w-100" src="images/sydi.jpeg"></div>
+                <div class="card-footer text-danger text-center"> Tom Holland</div>
+                
+            </div>
+
+            <div class="card">
+                <div class="card-body"><img class="w-100" src="images/natasha.jpeg"></div>
+                <div class="card-footer text-danger text-center">Natalia Alianovna</div>
+            </div>
+            <div class="card">
+                <div class="card-body"><img class="w-100" src="images/wanda.jpeg"></div>
+                <div class="card-footer text-danger text-center">Elizabeth Olsen</div>
+            </div>
+            <div class="card">
+                <div class="card-body"><img class="w-100" src="images/dr.jpeg"></div>
+                <div class="card-footer text-danger text-center"> Benedict</div>
+            </div>
+           
+</section>
+<!----------------------------->
+<section class="section4" id="Movies">
+    <h1 class="p-4 fs-1 text-white"> <strong class="text-danger">|</strong> TOP 10 MOVIES</h1>
+	<br><br><br>
+    <div class="container m-auto w-75">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="images/1st.jpg" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/2nd.jpg" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/3rd.jpg" alt="Third slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/4th.jpg" alt="Fourth slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/5th.jpg" alt="Fifth slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/7th.jpg" alt="Sixth slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/8th.jpg" alt="Seventh slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/9th.jpg" alt="Eight slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/10th.jpg" alt="Nine slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+            <script>
+                const carouselExampleIndicators = document.getElementById('carouselExampleIndicators');
+        const carousel = new bootstrap.Carousel(carouselExampleIndicators, {
+          interval: 1500 // Set the interval here (in milliseconds)
+        });
+        
+              </script>
+        </div>
+   </div>
+</section>
+<!----------------------------->
+<section class="section5" id="more">
+	<h1 class="p-4 fs-1 text-white"> <strong class="text-danger">|</strong> MORE</h1>
+    <div class="container">
+        <div class="box p-5 border border-dark text-white">
+            <h3 class="mt-2.8 ml-2.8 mr-2.8 text-white"> signup For <b class="text-danger">Free</b> and Watch <b class="text-danger">5 Movies</b> for free</h3>
+            <div class="box5 mt-3 ml-3 text-danger fs-2.5 "> USERNAME : <input class="box6" type="text" name="UserName"></div> 
+            <div class="box5 mt-3 ml-3 text-danger fs-2.5"> PASSWOED : <input class="box6" type="Password" name="Password"></div> 
+            <button class="btn btn-outline-danger m-5 ">login</button>
+            <button class="btn btn-outline-danger m-5 ">sign</button>
+        </div>
+    </div>
+</section>
+</body>
+</html>
