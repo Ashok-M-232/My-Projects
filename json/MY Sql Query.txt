@@ -1,0 +1,13 @@
+
+
+In MYSQL. creating a databases & table and then inserting data into table
+-------------------------------------------------------------------------
+
+creating the table 
+-------------------
+create table customer (account_number integer auto_increment,  full_name varchar(50), moblie_number bigint, password integer, current_balance integer, primary key (account_number));
+
+inserting the data
+--------------------
+insert into customer values(124001,"Muddangula Ashok", 8106630124,9889,30000);
+
