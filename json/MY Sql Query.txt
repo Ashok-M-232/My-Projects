@@ -1,6 +1,6 @@
 
 
-In MYSQL. creating a databases & table and then inserting data into table
+In MYSQL. creating a database & table and then inserting data into table
 -------------------------------------------------------------------------
 
 creating the table 
