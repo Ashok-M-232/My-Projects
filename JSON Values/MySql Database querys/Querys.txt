@@ -1,0 +1,10 @@
+Create database,using database, creating table and inserting Some values in MYSQL database 
+-------------------------------------------------------------------------------------------
+create database Ashok_Bank_of_India;
+
+use Ashok_Bank_of_India;
+
+create table customer (account_number integer auto_increment, first_name varchar(255) not null, last_name varchar(255) not null, father_full_name varchar(255), moblie_number bigint not null, email varchar(255), adhar_card bigint not null, pan_number varchar(255) not null,  married_or_single varchar(255), account_type varchar(255) not null, country varchar(255), state varchar(255), district varchar(255) not null, city varchar(255) not null, village varchar(255) not null, house_address varchar(255) not null, pincode integer, password integer not null, current_balance bigint, primary key (account_number));
+
+
+insert into customer values(124001,"ASHOK","MUDDALGULA","MUDDANGULA ADINARAYANA", 8106630124,"202g5a0232@gmail.com",986532986532,"ASDQ2587A","Single","Salary","India","Andhra Pradesh","Anantapur","Anantapur","Anantapur","4-400",515001,1001,75000);

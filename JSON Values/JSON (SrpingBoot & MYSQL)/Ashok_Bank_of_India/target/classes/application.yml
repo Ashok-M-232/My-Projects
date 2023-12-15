@@ -1,0 +1,27 @@
+server:
+  port: 9519
+  
+spring:
+  application:
+    name: ASHOK_BANK_OF_INDIA
+    
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/Ashok_Bank_of_India
+    username: root
+    password: admin
+  
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true
+    
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+  instance:
+    hostname: localhost
+  
